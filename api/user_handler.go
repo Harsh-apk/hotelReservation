@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/harsh-apk/hotel-reservation/db"
-	"github.com/harsh-apk/hotel-reservation/types"
+	"github.com/harsh-apk/hotelReservation/db"
+	"github.com/harsh-apk/hotelReservation/types"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
@@ -93,7 +93,7 @@ func (h *UserHandler) HandlePutUser(c *fiber.Ctx) error {
 	if err != nil {
 		return err
 	}
-	errors["result"] = fmt.Sprintf("Updated the values of %d documents which didn't had errors", res)
+	errors["result"] = fmt.Sprintf("Updated the values of %d documents which didn't had erroR", res)
 	return c.JSON(errors)
 
 }

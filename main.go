@@ -6,8 +6,8 @@ import (
 	"log"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/harsh-apk/hotel-reservation/api"
-	"github.com/harsh-apk/hotel-reservation/db"
+	"github.com/harsh-apk/hotelReservation/api"
+	"github.com/harsh-apk/hotelReservation/db"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

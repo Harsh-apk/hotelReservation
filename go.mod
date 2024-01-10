@@ -1,4 +1,4 @@
-module github.com/harsh-apk/hotel-reservation
+module github.com/harsh-apk/hotelReservation
 
 go 1.21.1
 
