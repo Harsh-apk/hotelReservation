@@ -5,9 +5,9 @@ import (
 	"flag"
 	"log"
 
+	"github.com/Harsh-apk/hotelReservation/api"
+	"github.com/Harsh-apk/hotelReservation/db"
 	"github.com/gofiber/fiber/v2"
-	"github.com/harsh-apk/hotelReservation/api"
-	"github.com/harsh-apk/hotelReservation/db"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

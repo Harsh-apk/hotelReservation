@@ -3,9 +3,9 @@ package api
 import (
 	"fmt"
 
+	"github.com/Harsh-apk/hotelReservation/db"
+	"github.com/Harsh-apk/hotelReservation/types"
 	"github.com/gofiber/fiber/v2"
-	"github.com/harsh-apk/hotelReservation/db"
-	"github.com/harsh-apk/hotelReservation/types"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

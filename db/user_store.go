@@ -3,7 +3,7 @@ package db
 import (
 	"context"
 
-	"github.com/harsh-apk/hotelReservation/types"
+	"github.com/Harsh-apk/hotelReservation/types"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
